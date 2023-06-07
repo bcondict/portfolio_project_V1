@@ -4,7 +4,7 @@ const options = {
   bracketSpacing: true,
   endOfLine: 'lf',
   semi: false,
-  toolwidth: 2,
+  tabWidth: 2,
   trailingComma: 'none',
 }
 
