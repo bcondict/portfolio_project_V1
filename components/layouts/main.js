@@ -3,6 +3,14 @@ import Navbar from "../navbar";
 import { Box, Container } from "@chakra-ui/react";
 import { Router } from "next/router";
 
+// import VoxelBcondict from "../voxel-bcondict";
+// import NoSsr  from "../no-ssr";
+// import dynamic from "next/dynamic";
+// const LazyVoxwlBcondict = dynamic(() => import("../voxel-bcondict"), {
+//   ssr: false,
+//   loading: () => <VoxelBcondict />
+// })
+
 const Main = ({ children }) => {
   return (
     <Box>
@@ -14,6 +22,10 @@ const Main = ({ children }) => {
       <Navbar path={Router.asPath} />
 
       <Container maxW="container.md" pt={14}>
+          {/*
+          <VoxelBcondict/>
+          <LazyVoxwlBcondict/>
+          */}
         {children}
       </Container>
     </Box>

@@ -24,15 +24,6 @@ const Linkitem = ({ href, path, children }) => {
   const inactiveColor = useColorModeValue('gray.800', 'whiteALpha.900')
 
   return (
-    // <Link href={href}>
-    //   <ChakraLink
-    //     p={2}
-    //     bg={active ? 'glassTeal' : undefined}
-    //     color={active ? '#202023' : inactiveColor}
-    //   >
-    //     {children}
-    //   </ChakraLink>
-    // </Link>
     <Link 
       as={NextLink}
       href={href}
@@ -48,6 +39,7 @@ const Linkitem = ({ href, path, children }) => {
   )
 }
 
+/* eslint-disable-next-line react/display-name */
 const MenuLink = forwardRef((props, ref) => (
   <Link ref={ref} as={NextLink} {...props} />
 ))
@@ -57,12 +49,12 @@ const Navbar = porps => {
 
   return (
     <Box
-      postition='fixed'
+      position='fixed'
       as='nav'
       w='100%'
       bg={useColorModeValue('#ffffff40', '#20202380')}
       style={{ backdropFilter: 'blur(10px)' }}
-      zIndex={1}
+      zIndex={2}
       {...porps}
     >
       <Container
@@ -89,9 +81,6 @@ const Navbar = porps => {
           <Linkitem href='/works' path={path}>
             Works
           </Linkitem>
-          <Linkitem href='/Post' path={path}>
-            Post
-          </Linkitem>
           <Linkitem
             target='_blank'
             href='https://github.com/bcondict/protfolio_project_V1'
@@ -113,12 +102,8 @@ const Navbar = porps => {
                 arial-label='Options'
               />
               <MenuList>
-                {/* <NextLink href='/' passHref>
-                  <MenuItem as={Link}>About</MenuItem>
-                </NextLink> */}
                 <MenuItem as={MenuLink} href='/'>About</MenuItem>
                 <MenuItem as={MenuLink} href='/works'>Works</MenuItem>
-                <MenuItem as={MenuLink} href='/post'>Post</MenuItem>
                 <MenuItem
                   target='_blank'
                   as={MenuLink}

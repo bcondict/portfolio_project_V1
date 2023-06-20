@@ -23,7 +23,7 @@ const Logo = () => {
   const b_logo = `/images/B_logo${useColorModeValue('', '-dark')}.png`
 
   return (
-    <Link legacyBehavior href="/">
+    <Link href="/" scroll={false}>
       <LogoBox>
         <Image src={b_logo} alt="logo" width={20}  height={20}/>
         <Text
