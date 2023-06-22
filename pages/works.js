@@ -7,7 +7,7 @@ import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-item";
 import Layout from "../components/layouts/article"
 
-import thumbYilunn from "../public/images/works/yilunn.png";
+// import thumbYilunn from "../public/images/works/yilunn.png";
 import thumbDecoder from "../public/images/works/decoder-landpage.png";
 import thumbPlatformer from "../public/images/works/platformer.png";
 import thumbAirBNBClone from "../public/images/works/AirBnBClone.png";
