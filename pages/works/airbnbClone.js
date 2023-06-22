@@ -15,7 +15,7 @@ const airbnbClone = () => {
     <Layout title={"airbnbClone"}>
       <Container>
         <Title>
-          airbnbClone <Badge>2021</Badge>
+          airbnbClone <Badge>2022</Badge>
         </Title>
         <P>
           AirbnbClone is a clone of the airbnb website, it is a full stack project that allows to create new spaces and users to book them.
@@ -26,8 +26,12 @@ const airbnbClone = () => {
             <span>Web</span>
           </ListItem>
           <ListItem>
-            <Meta>Stack</Meta>
-            <span>HTML/CSS and JavaScript</span>
+            <Meta>Stack frontend</Meta>
+            <span>HTML/CSS and JavaScript, Python, MySQL, Flask</span>
+          </ListItem>
+          <ListItem>
+            <Meta>Stack backend</Meta>
+            <span>Python, MySQL, Flask as web framework and RESTful API</span>
           </ListItem>
           <ListItem>
             <Meta>Github project</Meta>
@@ -37,6 +41,10 @@ const airbnbClone = () => {
           </ListItem>
         </List>
 
+        <P>
+          How is build complete web application with the front-end to the back-end. 
+        </P>
+        <WorkImage src={"/images/works/hbnb_step5.png"} alt={"airbnb step 5"} />
         <WorkImage src={"/images/works/AirBnBClone.png"} alt={"airbnbClone"} />
         <WorkImage src={"/images/works/AirBnBCloneLayout.jpg"} alt={"airbnbClone Layout"} />
         <WorkImage src={"/images/works/AirBnBCloneStates.jpg"} alt={"airbnbClone States"} />

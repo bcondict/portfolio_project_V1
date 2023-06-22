@@ -21,7 +21,7 @@ const Works = () => {
         </Heading>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
-          <Section>
+          {/* <Section>
             <WorkGridItem
               id="yilunn"
               title="Yilunn"
@@ -29,14 +29,14 @@ const Works = () => {
             >
               Task Manager and Productivity Tool app, cross-platform, built with React, Electron, and Firebase.
             </WorkGridItem>
-          </Section>
+          </Section> */}
           <Section>
             <WorkGridItem
-              id="decoder"
-              title="Decoder"
-              thumbnail={thumbDecoder}
+              id="airbnbClone"
+              title="Airbnb Clone"
+              thumbnail={thumbAirBNBClone}
             >
-              Decoder is a challenge developed for me to practice my skills in web development, using HTML, CSS, and JavaScript. Encrypt and decrypt messages using a hiden parameter 
+              Airbnb Clone, Full Stack Web Application 
             </WorkGridItem>
           </Section>
           <Section delay={0.1}>
@@ -50,11 +50,11 @@ const Works = () => {
           </Section>
           <Section delay={0.1}>
             <WorkGridItem
-              id="airbnbClone"
-              title="Airbnb Clone"
-              thumbnail={thumbAirBNBClone}
+              id="decoder"
+              title="Decoder"
+              thumbnail={thumbDecoder}
             >
-              Airbnb Clone, Full Stack Web Application 
+              Decoder is a challenge developed for me to practice my skills in web development, using HTML, CSS, and JavaScript. Encrypt and decrypt messages using a hiden parameter 
             </WorkGridItem>
           </Section>
         </SimpleGrid>
