@@ -131,7 +131,7 @@ const Page = () => {
           </Heading>
           <List>
             <ListItem>
-              <Link href="github.com/bcondict" target="_blank">
+              <Link href="https://github.com/bcondict" target="_blank">
                 <Button variant={"ghost"} colorScheme="teal" leftIcon={<Icon as={IoLogoGithub} />}>
                   @bcondict
                 </Button>
