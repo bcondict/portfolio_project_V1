@@ -6,10 +6,6 @@ import React from "react";
 
 const ReadMore = ({ children, maxCharCount = 100, }) => {
   const text = children.map((child) => child.props.children).join('\n')
-  // const text = [children]
-  //   .filter((child) => React.isValidElement(child))
-  //   .map((child) => child.props.children)
-  //   .join('\n');
 
   const [isTruncated, setIsTruncated] = useState(true);
 
@@ -32,6 +28,7 @@ const ReadMore = ({ children, maxCharCount = 100, }) => {
           onClick={toggleIsTruncated}
           colorScheme="teal"
           h={"30px"}
+          mb={3}
         >
           {isTruncated ? " read more" : " show less"}
         </Button>
