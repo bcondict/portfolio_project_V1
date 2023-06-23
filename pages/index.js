@@ -121,8 +121,34 @@ const Page = () => {
             Skills & Tech Stack
           </Heading>
           <Paragraph>
-            I have experience with the following languages and technologies:
+            I have experience and/or knowledge with the following languages and technologies:
           </Paragraph>
+          {/* <Paragraph>
+            <b>Languages:</b> C, Python, JavaScript, HTML, CSS, SQL, MySQL, C#, Bash
+          </Paragraph> */}
+          <BioSection>
+            <BioYear>C </BioYear>
+            <BioYear>Python </BioYear>
+            <BioYear>JavaScript </BioYear>
+            <BioYear>HTML </BioYear>
+            <BioYear>CSS </BioYear>
+            <BioYear>SQL </BioYear>
+            <BioYear>MySQL </BioYear>
+            <BioYear>C# </BioYear>
+          </BioSection>
+          <BioSection>
+            <BioYear>React </BioYear>
+            <BioYear>Node.js </BioYear>
+            <BioYear>Express </BioYear>
+            <BioYear>Flask </BioYear>
+            <BioYear>Git </BioYear>
+            <BioYear>Unity </BioYear>
+            <BioYear>Linux </BioYear>
+          </BioSection>
+          <br/>
+          <BioSection>
+            See more on the <Link href="/works">Portfolio</Link> page.
+          </BioSection>
         </Section>
 
         <Section delay={0.5}>
