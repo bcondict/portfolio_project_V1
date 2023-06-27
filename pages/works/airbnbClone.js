@@ -6,9 +6,10 @@ import {
   ListItem
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/work'
+import { Title, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
+import { ZoomableImageWorks } from '../../components/zoomableImage'
 
 const airbnbClone = () => {
   return (
@@ -44,11 +45,11 @@ const airbnbClone = () => {
         <P>
           How is build complete web application with the front-end to the back-end. 
         </P>
-        <WorkImage src={"/images/works/hbnb_step5.png"} alt={"airbnb step 5"} />
-        <WorkImage src={"/images/works/AirBnBClone.png"} alt={"airbnbClone"} />
-        <WorkImage src={"/images/works/AirBnBCloneLayout.jpg"} alt={"airbnbClone Layout"} />
-        <WorkImage src={"/images/works/AirBnBCloneStates.jpg"} alt={"airbnbClone States"} />
-        <WorkImage src={"/images/works/AirBnBCloneAmenities.jpg"} alt={"airbnbClone Amenities"} />
+        <ZoomableImageWorks src={"/images/works/hbnb_step5.png"} alt={"airbnb step 5"} />
+        <ZoomableImageWorks src={"/images/works/AirBnBClone.png"} alt={"airbnbClone"} />
+        <ZoomableImageWorks src={"/images/works/AirBnBCloneLayout.jpg"} alt={"airbnbClone Layout"} />
+        <ZoomableImageWorks src={"/images/works/AirBnBCloneStates.jpg"} alt={"airbnbClone States"} />
+        <ZoomableImageWorks src={"/images/works/AirBnBCloneAmenities.jpg"} alt={"airbnbClone Amenities"} />
       </Container>
     </Layout>
   )

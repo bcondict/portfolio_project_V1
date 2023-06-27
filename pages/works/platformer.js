@@ -6,9 +6,10 @@ import {
   ListItem
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/work'
+import { Title, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
+import { ZoomableImageWorks } from '../../components/zoomableImage'
 
 
 const Platformer = () => {
@@ -38,9 +39,9 @@ const Platformer = () => {
           </ListItem>
         </List>
 
-        <WorkImage src={"/images/works/platformer.png"} alt={"Platformer"} />
-        <WorkImage src={"/images/works/platformer_menu.png"} alt={"Platformer menu"} />
-        <WorkImage src={"/images/works/options_menu.png"} alt={"Options menu"} />
+        <ZoomableImageWorks src={"/images/works/platformer.png"} alt={"Platformer"} />
+        <ZoomableImageWorks src={"/images/works/platformer_menu.png"} alt={"Platformer menu"} />
+        <ZoomableImageWorks src={"/images/works/options_menu.png"} alt={"Options menu"} />
       </Container>
     </Layout>
   )

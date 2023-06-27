@@ -6,9 +6,10 @@ import {
   ListItem
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/work'
+import { Title, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
+import { ZoomableImageWorks } from '../../components/zoomableImage'
 
 const Decoder = () => {
   return (
@@ -37,8 +38,8 @@ const Decoder = () => {
           </ListItem>
         </List>
 
-        <WorkImage src={"/images/works/decoder-landpage.png"} alt={"Decoder"} />
-        <WorkImage src={"/images/works/decoder-message.png"} alt={"Decoder Message"} />
+        <ZoomableImageWorks src={"/images/works/decoder-landpage.png"} alt={"Decoder"} />
+        <ZoomableImageWorks src={"/images/works/decoder-message.png"} alt={"Decoder Message"} />
       </Container>
     </Layout>
   )

@@ -12,7 +12,7 @@ import {
 import Section from "../components/section"
 import Paragraph from "../components/paragraph"
 import { ChevronRightIcon } from "@chakra-ui/icons"
-import ZoomableImage from "../components/zoomableImage"
+import { ZoomableImageProfile } from "../components/zoomableImage"
 import ReadMore from "../components/readMore"
 import { BioSection, BioYear } from "../components/bio"
 import Layout from "../components/layouts/article"
@@ -49,7 +49,7 @@ const Page = () => {
             ml={{md: 6}}
             align="center"
           >
-            <ZoomableImage
+            <ZoomableImageProfile
               src="/images/profile.jpg"
               alt="Profile image"
             />
