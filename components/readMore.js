@@ -17,7 +17,7 @@ const ReadMore = ({ children, maxCharCount = 100, }) => {
   }
 
   return (
-    <div>
+    <Section>
       <Paragraph>
         {resultString.split('\n').map((item, key) => (
           <Section key={key}>
@@ -33,7 +33,7 @@ const ReadMore = ({ children, maxCharCount = 100, }) => {
           {isTruncated ? "read more" : "show less"}
         </Button>
       </Paragraph>
-    </div>
+    </Section>
   )
 }
 
