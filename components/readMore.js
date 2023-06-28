@@ -1,7 +1,8 @@
-import { useState } from "react";
-import Paragraph from "./paragraph";
-import { Button } from "@chakra-ui/react";
-import React from "react";
+import { useState } from "react"
+import Paragraph from "./paragraph"
+import { Button } from "@chakra-ui/react"
+import React from "react"
+import Section from "./section"
 
 
 const ReadMore = ({ children, maxCharCount = 100, }) => {
@@ -11,18 +12,17 @@ const ReadMore = ({ children, maxCharCount = 100, }) => {
 
   const resultString = isTruncated ? text.slice(0, maxCharCount) : text;
 
-  function toggleIsTruncated() {
-    setIsTruncated(!isTruncated);
+  const toggleIsTruncated = () => {
+    setIsTruncated(!isTruncated)
   }
 
   return (
     <div>
       <Paragraph>
         {resultString.split('\n').map((item, key) => (
-          <React.Fragment key={key}>
-            <p>{item}</p>
-            <br />
-          </React.Fragment>
+          <Section key={key}>
+            {item}
+          </Section>
         ))}
         <Button
           onClick={toggleIsTruncated}
@@ -30,7 +30,7 @@ const ReadMore = ({ children, maxCharCount = 100, }) => {
           h={"30px"}
           mb={3}
         >
-          {isTruncated ? " read more" : " show less"}
+          {isTruncated ? "read more" : "show less"}
         </Button>
       </Paragraph>
     </div>
