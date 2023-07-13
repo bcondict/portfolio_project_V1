@@ -17,6 +17,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import { IoLogoGithub } from 'react-icons/io5'
+import { FaGoogleDrive } from 'react-icons/fa'
 import ThemeToggleButton from './theme-toggle-button'
 
 const Linkitem = ({ href, path, children }) => {
@@ -82,6 +83,13 @@ const Navbar = porps => {
             Works
           </Linkitem>
           <Linkitem
+            href='https://drive.google.com/drive/folders/1T20ffiRHSleC3KWssKrpzCKHjyb5apwJ'
+            path={path}
+          >
+            <FaGoogleDrive />
+            Resume
+          </Linkitem>
+          <Linkitem
             target='_blank'
             href='https://github.com/bcondict/protfolio_project_V1'
             path={path}
@@ -104,6 +112,12 @@ const Navbar = porps => {
               <MenuList>
                 <MenuItem as={MenuLink} href='/'>About</MenuItem>
                 <MenuItem as={MenuLink} href='/works'>Works</MenuItem>
+                <MenuItem
+                  as={MenuLink}
+                  href='https://drive.google.com/drive/folders/1T20ffiRHSleC3KWssKrpzCKHjyb5apwJ'
+                >
+                  Resume
+                </MenuItem>
                 <MenuItem
                   target='_blank'
                   as={MenuLink}
