@@ -134,17 +134,18 @@ const Page = () => {
             <BioYear>HTML </BioYear>
             <BioYear>CSS </BioYear>
             <BioYear>SQL </BioYear>
-            <BioYear>MySQL </BioYear>
-            <BioYear>C# </BioYear>
+            <BioYear>MySQL</BioYear>
+            <BioYear>.NET</BioYear>
           </BioSection>
           <BioSection>
-            <BioYear>React </BioYear>
-            <BioYear>Node.js </BioYear>
-            <BioYear>Express </BioYear>
-            <BioYear>Flask </BioYear>
-            <BioYear>Git </BioYear>
-            <BioYear>Unity </BioYear>
-            <BioYear>Linux </BioYear>
+            <BioYear>C#</BioYear>
+            <BioYear>React</BioYear>
+            <BioYear>Node.js</BioYear>
+            <BioYear>Express</BioYear>
+            <BioYear>Flask</BioYear>
+            <BioYear>Git</BioYear>
+            <BioYear>Unity</BioYear>
+            <BioYear>Linux</BioYear>
           </BioSection>
           <br/>
           <BioSection>
