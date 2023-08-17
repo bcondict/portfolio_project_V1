@@ -9,7 +9,7 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
-import { ZoomableImageWorks } from '../../components/zoomableImage'
+import { ZoomableImageWorks } from '../../components/ZoomableImage'
 
 
 const Platformer = () => {

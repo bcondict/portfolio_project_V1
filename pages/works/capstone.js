@@ -9,7 +9,7 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
-import { ZoomableImageWorks } from '../../components/zoomableImage'
+import { ZoomableImageWorks } from '../../components/ZoomableImage'
 
 const capstone = () => {
   return (
@@ -47,11 +47,11 @@ const capstone = () => {
             </Link>
           </ListItem>
         </List>
-        <ZoomableImageWorks src={"/images/works/capstone_member_directory.png"} alt={"member directory"}/>
-        <ZoomableImageWorks src={"/images/works/capstone_login.png"} alt={"login"}/>
-        <ZoomableImageWorks src={"/images/works/capstone_events.png"} alt={"events"}/>
-        <ZoomableImageWorks src={"/images/works/capstone_create_event.png"} alt={"create event"}/>
-        <ZoomableImageWorks src={"/images/works/capstone_invites.png"} alt={"invites"}/>
+        <ZoomableImageWorks src={"/images/works/Capstone-home.png"} alt={"login"}/>
+        <ZoomableImageWorks src={"/images/works/Capstone-login.png"} alt={"member directory"}/>
+        <ZoomableImageWorks src={"/images/works/Capstone-register.png"} alt={"invites"}/>
+        <ZoomableImageWorks src={"/images/works/Capstone-my-events.png"} alt={"events"}/>
+        <ZoomableImageWorks src={"/images/works/Capstone-my-invites.png"} alt={"create event"}/>
       </Container>
     </Layout>
   )

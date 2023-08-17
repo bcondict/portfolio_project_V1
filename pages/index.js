@@ -79,8 +79,6 @@ const Page = () => {
               href="/works"
               scroll={"false"}
               rightIcon={<ChevronRightIcon />}
-              // colorScheme="#550000"
-              // colorScheme="red" me gusta
               colorScheme="teal"
               mb={3}
             >
@@ -127,6 +125,7 @@ const Page = () => {
           {/* <Paragraph>
             <b>Languages:</b> C, Python, JavaScript, HTML, CSS, SQL, MySQL, C#, Bash
           </Paragraph> */}
+          <br/>
           <BioSection>
             <BioYear>C </BioYear>
             <BioYear>Python </BioYear>

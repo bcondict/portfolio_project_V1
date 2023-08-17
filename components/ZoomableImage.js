@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Image } from "@chakra-ui/image";
+import { motion } from "framer-motion";
 
 export const ZoomableImageProfile = ({ src, alt }) => {
   const [ isZoomed, setIsZoomed ] = useState(false);
@@ -34,20 +35,25 @@ export const ZoomableImageWorks = ({ src, alt }) => {
   };
 
   return (
-    <Image
-      src={src}
-      alt={alt}
-      onClick={toggleZoom}
-      cursor="zoom-in"
-      _hover={{ opacity: 0.8 }}
-      borderRadius={"lg"}
-      mb={4}
+    <motion.div
+      whileHover={{ scale: 1.1 }}
+    >
+      <Image
+        src={src}
+        alt={alt}
+        onClick={toggleZoom}
+        cursor="zoom-in"
+        _hover={{ opacity: 0.8 }}
+        borderRadius={"lg"}
+        mb={4}
+        
+        maxW={isZoomed ? "150%" : "100%"}
+        marginLeft={isZoomed ? "-25%" : "0"}
+        
+        transition={"0.5s ease-in-out"}
+        display="inline-block"
+        />
 
-      maxW={isZoomed ? "150%" : "100%"}
-      marginLeft={isZoomed ? "-25%" : "0"}
-
-      transition={"0.5s ease-in-out"}
-      display="inline-block"
-    />
+    </motion.div>
   )
 }

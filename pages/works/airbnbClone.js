@@ -9,7 +9,7 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
-import { ZoomableImageWorks } from '../../components/zoomableImage'
+import { ZoomableImageWorks } from '../../components/ZoomableImage'
 
 const airbnbClone = () => {
   return (
@@ -19,7 +19,7 @@ const airbnbClone = () => {
           airbnbClone <Badge>2022</Badge>
         </Title>
         <P>
-          AirbnbClone is a clone of the airbnb website, it is a full stack project that allows to create new spaces and users to book them.
+          AirbnbClone is a replica of the airbnb website, full stack project that allows to create new spaces and users to book them.
         </P>
         <List ml={4} my={4}>
           <ListItem>
@@ -43,7 +43,7 @@ const airbnbClone = () => {
         </List>
 
         <P>
-          How is build complete web application with the front-end to the back-end. 
+          Archiecture of the project:
         </P>
         <ZoomableImageWorks src={"/images/works/hbnb_step5.png"} alt={"airbnb step 5"} />
         <ZoomableImageWorks src={"/images/works/AirBnBClone.png"} alt={"airbnbClone"} />

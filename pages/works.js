@@ -11,7 +11,7 @@ import Layout from "../components/layouts/article"
 import thumbDecoder from "../public/images/works/decoder-landpage.png";
 import thumbPlatformer from "../public/images/works/platformer.png";
 import thumbAirBNBClone from "../public/images/works/AirBnBClone.png";
-import thumbCapstone from "../public/images/works/capstone_invites.png";
+import thumbCapstone from "../public/images/works/Capstone-my-invites.png";
 
 const Works = () => {
   return (
@@ -37,7 +37,7 @@ const Works = () => {
               title="Airbnb Clone"
               thumbnail={thumbAirBNBClone}
             >
-              Airbnb Clone, Full Stack Web Application 
+              Full Stack Web Application, replica of the Airbnb platform, using Python, HTML/CSS and JavaScript 
             </WorkGridItem>
           </Section>
           <Section delay={0.1}>
@@ -55,7 +55,7 @@ const Works = () => {
               title="Decoder"
               thumbnail={thumbDecoder}
             >
-              Decoder is a challenge developed for me to practice my skills in web development, using HTML, CSS, and JavaScript. Encrypt and decrypt messages using a hiden parameter 
+              Decoder static webpage developed using HTML, CSS, and JavaScript with the objective of encrypt and decrypt messages using a hiden parameter. 
             </WorkGridItem>
           </Section>
           <Section>
@@ -64,7 +64,7 @@ const Works = () => {
               title="Capstone"
               thumbnail={thumbCapstone}
             >
-              Capstone project on Holberton School, a web application developed using the MERN stack.
+              Web application for the management of tennis events, with authentication, CRUD operations, and a calendar. Built with React, Node.js, Express, and MongoDB.
             </WorkGridItem>
           </Section>
         </SimpleGrid>
