@@ -12,7 +12,7 @@ import {
 import Section from "../components/section"
 import Paragraph from "../components/paragraph"
 import { ChevronRightIcon } from "@chakra-ui/icons"
-import { ZoomableImageProfile } from "../components/zoomableImage"
+import { ZoomableImageProfile } from "../components/ZoomableImage"
 import ReadMore from "../components/readMore"
 import { BioSection, BioYear } from "../components/bio"
 import Layout from "../components/layouts/article"
