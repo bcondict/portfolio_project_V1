@@ -9,6 +9,7 @@ import {
   useColorModeValue,
   Icon
 } from "@chakra-ui/react"
+import NextLink from 'next/link'
 import Section from "../components/section"
 import Paragraph from "../components/paragraph"
 import { ChevronRightIcon } from "@chakra-ui/icons"
@@ -75,9 +76,9 @@ const Page = () => {
           </ReadMore>
           <Box align="center" my={4}>
             <Button
-              as={Link}
+              as={NextLink}
               href="/works"
-              scroll={"false"}
+              scroll={false}
               rightIcon={<ChevronRightIcon />}
               colorScheme="teal"
               mb={3}
