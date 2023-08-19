@@ -8,10 +8,10 @@ import { WorkGridItem } from "../components/grid-item";
 import Layout from "../components/layouts/article"
 
 // import thumbYilunn from "../public/images/works/yilunn.png";
-import thumbDecoder from "../public/images/works/decoder-landpage.png";
-import thumbPlatformer from "../public/images/works/platformer.png";
-import thumbAirBNBClone from "../public/images/works/AirBnBClone.png";
-import thumbCapstone from "../public/images/works/Capstone-my-invites.png";
+import thumbDecoder from "../public/images/works/decoder/decoder-landpage.png";
+import thumbPlatformer from "../public/images/works/platformer/platformer.png";
+import thumbAirBNBClone from "../public/images/works/AirBnB-Clone/AirBnBClone.png";
+import thumbCapstone from "../public/images/works/TC-360/Capstone-my-invites.png";
 
 const Works = () => {
   return (
@@ -33,7 +33,7 @@ const Works = () => {
           </Section> */}
           <Section>
             <WorkGridItem
-              id="airbnbClone"
+              id="AirbnbClone"
               title="Airbnb Clone"
               thumbnail={thumbAirBNBClone}
             >
@@ -42,7 +42,7 @@ const Works = () => {
           </Section>
           <Section delay={0.1}>
             <WorkGridItem
-              id="platformer"
+              id="Platformer"
               title="Platformer"
               thumbnail={thumbPlatformer}
             >
@@ -51,7 +51,7 @@ const Works = () => {
           </Section>
           <Section delay={0.1}>
             <WorkGridItem
-              id="decoder"
+              id="Decoder"
               title="Decoder"
               thumbnail={thumbDecoder}
             >
@@ -60,8 +60,8 @@ const Works = () => {
           </Section>
           <Section>
             <WorkGridItem
-              id="capstone"
-              title="Capstone"
+              id="TC-360"
+              title="TC-360"
               thumbnail={thumbCapstone}
             >
               Web application for the management of tennis events, with authentication, CRUD operations, and a calendar. Built with React, Node.js, Express, and MongoDB.

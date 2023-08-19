@@ -13,10 +13,10 @@ import { ZoomableImageWorks } from '../../components/ZoomableImage'
 
 const capstone = () => {
   return (
-    <Layout title={"capstone"}>
+    <Layout title={"TC-360"}>
       <Container>
         <Title>
-          capstone <Badge>2022</Badge>
+          Tennis Connect - 360 <Badge>2022</Badge>
         </Title>
         <P>
           TC-360 is a web application developed as capstone project for Holberton School. The project is a web application that allows users to create tennis matches and invite other users to join them, set a date, time, and location.
@@ -47,11 +47,11 @@ const capstone = () => {
             </Link>
           </ListItem>
         </List>
-        <ZoomableImageWorks src={"/images/works/Capstone-home.png"} alt={"login"}/>
-        <ZoomableImageWorks src={"/images/works/Capstone-login.png"} alt={"member directory"}/>
-        <ZoomableImageWorks src={"/images/works/Capstone-register.png"} alt={"invites"}/>
-        <ZoomableImageWorks src={"/images/works/Capstone-my-events.png"} alt={"events"}/>
-        <ZoomableImageWorks src={"/images/works/Capstone-my-invites.png"} alt={"create event"}/>
+        <ZoomableImageWorks src={"/images/works/TC-360/Capstone-home.png"} alt={"login"}/>
+        <ZoomableImageWorks src={"/images/works/TC-360/Capstone-login.png"} alt={"member directory"}/>
+        <ZoomableImageWorks src={"/images/works/TC-360/Capstone-register.png"} alt={"invites"}/>
+        <ZoomableImageWorks src={"/images/works/TC-360/Capstone-my-events.png"} alt={"events"}/>
+        <ZoomableImageWorks src={"/images/works/TC-360/Capstone-my-invites.png"} alt={"create event"}/>
       </Container>
     </Layout>
   )

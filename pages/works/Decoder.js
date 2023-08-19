@@ -38,8 +38,8 @@ const Decoder = () => {
           </ListItem>
         </List>
 
-        <ZoomableImageWorks src={"/images/works/decoder-landpage.png"} alt={"Decoder"} />
-        <ZoomableImageWorks src={"/images/works/decoder-message.png"} alt={"Decoder Message"} />
+        <ZoomableImageWorks src={"/images/works/decoder/decoder-landpage.png"} alt={"Decoder"} />
+        <ZoomableImageWorks src={"/images/works/decoder/decoder-message.png"} alt={"Decoder Message"} />
       </Container>
     </Layout>
   )

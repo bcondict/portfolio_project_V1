@@ -13,10 +13,10 @@ import { ZoomableImageWorks } from '../../components/ZoomableImage'
 
 const airbnbClone = () => {
   return (
-    <Layout title={"airbnbClone"}>
+    <Layout title={"AirbnbClone"}>
       <Container>
         <Title>
-          airbnbClone <Badge>2022</Badge>
+          AirbnbClone <Badge>2022</Badge>
         </Title>
         <P>
           AirbnbClone is a replica of the airbnb website, full stack project that allows to create new spaces and users to book them.
@@ -45,11 +45,11 @@ const airbnbClone = () => {
         <P>
           Archiecture of the project:
         </P>
-        <ZoomableImageWorks src={"/images/works/hbnb_step5.png"} alt={"airbnb step 5"} />
-        <ZoomableImageWorks src={"/images/works/AirBnBClone.png"} alt={"airbnbClone"} />
-        <ZoomableImageWorks src={"/images/works/AirBnBCloneLayout.jpg"} alt={"airbnbClone Layout"} />
-        <ZoomableImageWorks src={"/images/works/AirBnBCloneStates.jpg"} alt={"airbnbClone States"} />
-        <ZoomableImageWorks src={"/images/works/AirBnBCloneAmenities.jpg"} alt={"airbnbClone Amenities"} />
+        <ZoomableImageWorks src={"/images/works/AirBnB-Clone/hbnb_step5.png"} alt={"airbnb step 5"} />
+        <ZoomableImageWorks src={"/images/works/AirBnB-Clone/AirBnBClone.png"} alt={"airbnbClone"} />
+        <ZoomableImageWorks src={"/images/works/AirBnB-Clone/AirBnBCloneLayout.jpg"} alt={"airbnbClone Layout"} />
+        <ZoomableImageWorks src={"/images/works/AirBnB-Clone/AirBnBCloneStates.jpg"} alt={"airbnbClone States"} />
+        <ZoomableImageWorks src={"/images/works/AirBnB-Clone/AirBnBCloneAmenities.jpg"} alt={"airbnbClone Amenities"} />
       </Container>
     </Layout>
   )

@@ -39,9 +39,20 @@ const Platformer = () => {
           </ListItem>
         </List>
 
-        <ZoomableImageWorks src={"/images/works/platformer.png"} alt={"Platformer"} />
-        <ZoomableImageWorks src={"/images/works/platformer_menu.png"} alt={"Platformer menu"} />
-        <ZoomableImageWorks src={"/images/works/options_menu.png"} alt={"Options menu"} />
+        <video
+          width="100%"
+          height="100%"
+          controls
+          style={{
+            borderRadius: "10px",
+            marginBottom: "20px",
+          }}
+        >
+          <source src="/images/works/platformer/platformer_demo.mp4" type="video/mp4" />
+        </video>
+        <ZoomableImageWorks src={"/images/works/platformer/platformer.png"} alt={"Platformer"} />
+        <ZoomableImageWorks src={"/images/works/platformer/platformer_menu.png"} alt={"Platformer menu"} />
+        <ZoomableImageWorks src={"/images/works/platformer/platformer_options_menu.png"} alt={"Options menu"} />
       </Container>
     </Layout>
   )
